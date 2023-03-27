@@ -12,6 +12,9 @@
     "build": "parcel build"
   },
   "author": "Eyevinn Technology AB <work@eyevinn.se>",
+  "contributors": [
+    "Jonas Birmé <jonas.birme@eyevinn.se> (Eyevinn Technology AB)"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
