@@ -24,17 +24,24 @@
 
 A web application that provides a multiviewer (mosaic) for all channels provided by a VOD2Live engine based on Eyevinn Channel Engine library.
 
-## Requirements
-
-<!--Add any external project dependencies such as node.js version etc here -->
-
-## Installation / Usage
-
-<!--Add clear instructions on how to use the project here -->
+![screenshot](screenshot.png)
 
 ## Development
 
-<!--Add clear instructions on how to start development of the project here -->
+To start the application:
+
+```
+npm install
+npm start
+```
+
+Open `http://localhost:1234` in your browser to open the multiview. Enter the URL to the Channel Engine, e.g. `https://fast.vc.eyevinn.technology`
+
+Using eslint
+
+```
+npm run lint
+```
 
 ## Contributing
 
