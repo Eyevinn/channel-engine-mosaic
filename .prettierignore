@@ -1,2 +1,4 @@
 dist/
 .github/
+*.md
+src/index.html
