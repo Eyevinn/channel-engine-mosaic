@@ -44,6 +44,11 @@
         padding: 10px;
         min-height: 400px;
       }
+
+      section#multiview:fullscreen {
+        --grid-column-count: 2;
+      }
+
     </style>
     <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
@@ -62,6 +67,7 @@
       <label for="engine-host">Engine Host:</label>
       <input id="engine-host" type="text" value=""></input>
       <button id="btn-start">START</button>
+      <button id="btn-fullscreen">FULLSCREEN</button>
     </section>
     <section id="multiview"></section>
   </body>

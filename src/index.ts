@@ -11,6 +11,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     inputEngineHost.value = engineHost;
   }
   const buttonStart = document.querySelector<HTMLButtonElement>('#btn-start');
+  const buttonFullScreen = document.querySelector<HTMLButtonElement>('#btn-fullscreen');
 
   updateThisUrl();
 
@@ -42,6 +43,10 @@ window.addEventListener('DOMContentLoaded', async () => {
         updateThisUrl();
       }
     }
+  });
+
+  buttonFullScreen?.addEventListener('click', async () => {
+    sectionMultiview?.requestFullscreen();
   });
 
   function updateThisUrl() {
