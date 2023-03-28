@@ -44,6 +44,11 @@
         padding: 10px;
         min-height: 400px;
       }
+
+      section#multiview:fullscreen {
+        --grid-column-count: 2;
+      }
+
     </style>
     <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@exampledev/new.css@1.1.2/new.min.css">
@@ -56,12 +61,13 @@
         <img src="./logo-lightmode.png" />
       </picture>
       <h1>Eyevinn Channel Engine Multiview</h1>
-      <input id="thisurl" type="text" size="100" readonly></input>
+      <input id="thisurl" type="text" size="100" readonly />
     </header>
     <section>
       <label for="engine-host">Engine Host:</label>
-      <input id="engine-host" type="text" value=""></input>
+      <input id="engine-host" type="text" value="" />
       <button id="btn-start">START</button>
+      <button id="btn-fullscreen">FULLSCREEN</button>
     </section>
     <section id="multiview"></section>
   </body>
