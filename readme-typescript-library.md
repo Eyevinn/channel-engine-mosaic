@@ -1,4 +1,4 @@
-# typescript-library 
+# typescript-library
 
 Template for TypeScript library projects. It includes:
 
