@@ -11,7 +11,8 @@ window.addEventListener('DOMContentLoaded', async () => {
     inputEngineHost.value = engineHost;
   }
   const buttonStart = document.querySelector<HTMLButtonElement>('#btn-start');
-  const buttonFullScreen = document.querySelector<HTMLButtonElement>('#btn-fullscreen');
+  const buttonFullScreen =
+    document.querySelector<HTMLButtonElement>('#btn-fullscreen');
 
   updateThisUrl();
 
