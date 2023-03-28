@@ -5,6 +5,10 @@
     <meta charset="UTF-8" />
     <script type="module" src="./index.ts"></script>
     <style type="text/css">
+      html {
+        --fullscreen-column-count: 2;
+      }
+
       header {
         display: flex;
         justify-content: space-evenly;
@@ -54,7 +58,7 @@
       }
 
       section#multiview:fullscreen {
-        --grid-column-count: 2;
+        --grid-column-count: var(--fullscreen-column-count);
       }
     </style>
     <link rel="stylesheet" href="https://fonts.xz.style/serve/inter.css" />
