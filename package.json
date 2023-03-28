@@ -8,6 +8,7 @@
     "lint": "eslint .",
     "pretty": "prettier --check --ignore-unknown .",
     "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "jest",
     "start": "parcel",
     "build": "parcel build"
   },
@@ -19,14 +20,16 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
+    "@types/jest": "^29.5.0",
     "@typescript-eslint/eslint-plugin": "^5.51.0",
     "@typescript-eslint/parser": "^5.51.0",
     "eslint": "^8.33.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.3",
+    "parcel": "^2.8.3",
     "prettier": "^2.8.4",
-    "typescript": "^4.9.5",
-    "parcel": "^2.8.3"
+    "ts-jest": "^29.0.5",
+    "typescript": "^4.9.5"
   }
 }

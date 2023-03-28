@@ -1,3 +1,5 @@
+import { calculateColumns } from './util';
+
 const queryString = window.location.search;
 const params = new URLSearchParams(queryString);
 
@@ -40,6 +42,9 @@ window.addEventListener('DOMContentLoaded', async () => {
               sectionMultiview?.appendChild(video);
             }
           );
+          const r = document.querySelector<HTMLElement>(':root');
+          const columns = calculateColumns(json.sessionEndpoints.length);
+          r?.style.setProperty('--fullscreen-column-count', columns.toString());
         }
         updateThisUrl();
       }
