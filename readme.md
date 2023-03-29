@@ -22,9 +22,11 @@
 
 </div>
 
-A web application that provides a multiviewer (mosaic) for all channels provided by a VOD2Live engine based on Eyevinn Channel Engine library.
+A web application that provides a multiviewer (mosaic) for all channels provided by a VOD2Live engine based on [Eyevinn Channel Engine library](https://github.com/Eyevinn/channel-engine).
 
 ![screenshot](screenshot.png)
+
+[Online version](https://vod2live.player.eyevinn.technology)
 
 ## Development
 

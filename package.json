@@ -10,7 +10,8 @@
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "test": "jest",
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "postversion": "git push && git push --tags"
   },
   "author": "Eyevinn Technology AB <work@eyevinn.se>",
   "contributors": [
