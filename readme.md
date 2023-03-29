@@ -13,7 +13,7 @@
 <div align="center">
 <br />
 
-[![github release](https://img.shields.io/github/v/release/Eyevinn/channel-engine-mosaic?style=flat-square)](https://github.com/Eyevinn/channel-engine-mosaic/releases)
+[![github release](https://img.shields.io/github/v/release/eyevinn/channel-engine-mosaic?style=flat-square)](https://github.com/Eyevinn/channel-engine-mosaic/releases)
 [![license](https://img.shields.io/github/license/eyevinn/channel-engine-mosaic.svg?style=flat-square)](LICENSE)
 
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/eyevinn/channel-engine-mosaic/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
