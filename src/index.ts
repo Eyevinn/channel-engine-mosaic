@@ -3,7 +3,7 @@ import { calculateColumns } from './util';
 const queryString = window.location.search;
 const params = new URLSearchParams(queryString);
 
-const engineHost = params.get('engine') || 'https://fast.vc.eyevinn.technology';
+const engineHost = params.get('engine') || 'https://demo.vc.eyevinn.technology';
 
 interface Endpoint {
   playback: string | URL;
