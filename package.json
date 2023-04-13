@@ -1,6 +1,6 @@
 {
   "name": "channel-engine-mosaic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Visually monitor Eyevinn Channel Engine channels",
   "source": "src/index.html",
   "scripts": {
