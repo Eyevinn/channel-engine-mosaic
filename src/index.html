@@ -32,6 +32,18 @@
         width: 100%;
       }
 
+      #input {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .group-host {
+        width: 80%;
+      }
+      .group-key {
+        width: 20%;
+      }
+
       section#multiview {
         --grid-layout-gap: 10px;
         --grid-column-count: 4;
@@ -127,8 +139,16 @@
       <input id="thisurl" type="text" size="100" readonly />
     </header>
     <section>
-      <label for="engine-host">Engine Host:</label>
-      <input id="engine-host" type="text" value="" />
+      <div id="input">
+        <div class="group-host">
+          <label for="engine-host">Engine Host:</label>
+          <input id="engine-host" type="text" value="" />
+        </div>
+        <div class="group-key">
+          <label for="engine-key">Key:</label>
+          <input id="engine-key" type="password" value="" />
+        </div>
+      </div>
       <button id="btn-start">START</button>
       <button id="btn-fullscreen">FULLSCREEN</button>
     </section>

@@ -20,6 +20,8 @@ window.addEventListener('DOMContentLoaded', async () => {
   const buttonStart = document.querySelector<HTMLButtonElement>('#btn-start');
   const buttonFullScreen =
     document.querySelector<HTMLButtonElement>('#btn-fullscreen');
+  const inputEngineKey =
+    document.querySelector<HTMLInputElement>('#engine-key');
 
   updateThisUrl();
 
@@ -30,7 +32,12 @@ window.addEventListener('DOMContentLoaded', async () => {
       }
 
       const engineUrl = new URL('/health', inputEngineHost.value);
-      const response = await fetch(engineUrl.toString());
+      const engineKey = inputEngineKey?.value;
+      let headers;
+      if (engineKey) {
+        headers = { 'x-health-key': engineKey };
+      }
+      const response = await fetch(engineUrl.toString(), { headers });
       if (response.ok) {
         const json = await response.json();
         if (json.sessionEndpoints) {
